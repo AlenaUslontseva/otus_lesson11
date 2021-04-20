@@ -38,7 +38,7 @@
                  <configuration>
                      <testFailureIgnore>true</testFailureIgnore>
                      <argLine>
-                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"
                      </argLine>
                  <includes>
                      <include>**/*YandexComp.java</include>
@@ -52,7 +52,7 @@
                      <dependency>
                          <groupId>org.aspectj</groupId>
                          <artifactId>aspectjweaver</artifactId>
-                         <version>${aspectj.version}</version>
+                         <version>1.9.6</version>
                      </dependency>
                  </dependencies>
              </plugin>
